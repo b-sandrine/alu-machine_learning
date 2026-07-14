@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
-"""_summary_
-Contains a function that returns the transpose of a numpy.ndarray
+"""
+transpose an n x m matrix (2D list) and return the transposed matrix.
 """
 
 
 def np_transpose(matrix):
-    """_summary_
-
-    Args:
-        matrix (_type_): _description_
-
-    Returns:
-        _type_: _description_
     """
-    return matrix.T
+    Returns the transpose of a 2D matrix
+    """
+    return matrix.transpose()

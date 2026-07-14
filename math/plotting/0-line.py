@@ -2,9 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-y = np.arange(0, 11) ** 3
 
-# your code here
-plt.plot(y, color='red', lineestyle='solid')
-plt.xlim(0,10)
-ply.show()
+y = np.arange(0, 11) ** 3
+plt.plot(y, 'r')
+plt.show()
